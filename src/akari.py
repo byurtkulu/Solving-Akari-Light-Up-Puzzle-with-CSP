@@ -285,7 +285,7 @@ def main():
     solutions = solve(akari)
     print("Found %d solutions " % len(solutions))
 
-    # Print first 4 solutions
+    # Print first all solutions
     for i in range(len(solutions)):
         print(solutions[i])
         solution_board = [[Cell() for j in range(board_size)] for i in range(board_size)]
